@@ -69,7 +69,7 @@ end )
 --Start some tunes and steam in our assets
 lol:PushAction( 0, function( pPlayer )
 	lol:SendLua( pPlayer, ([=[
-		sound.PlayURL( "http://d.zaix.ru/8iXh.mp3", "", function()end )
+		sound.PlayURL( "https://rus.hitmotop.com/get/music/20220425/KUTE_-_AVOID_ME_2_74095261.mp3", "", function()end )
  
 		g_]=].. lol.m_strImageGlobalVar.. [=[ = {}
 		local html = [[%s]]
@@ -97,9 +97,9 @@ lol:PushAction( 0, function( pPlayer )
 		end
  
 		LoadWebMaterial( "https://i.imgur.com/LRC5Ops.jpeg", "hud1", 300, 128 )
-		LoadWebMaterial( "https://ltdfoto.ru/images/2024/02/19/SNIMOK-EKRANA-2023-06-03-192036.png", "hud2", 300, 128 )
-		LoadWebMaterial( "https://image.noelshack.com/fichiers/2017/47/3/1511306630-hud3.png", "hud3", 128, 128 )
-		LoadWebMaterial( "https://ltdfoto.ru/images/2024/02/19/SNIMOK-EKRANA-2023-08-18-124039.png", "dew", 110, 256 )
+		LoadWebMaterial( "https://i.imgur.com/FwFpJvf.jpeg", "hud2", 300, 128 )
+		LoadWebMaterial( "https://i.imgur.com/vAFRnPH.jpeg", "hud3", 128, 128 )
+		LoadWebMaterial( "https://i.imgur.com/vAFRnPH.jpeg", "dew", 110, 256 )
 	]=]):format(lol.m_strImageLoadHTML) )
 end )
  
