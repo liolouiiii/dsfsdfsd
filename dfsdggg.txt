@@ -90,7 +90,7 @@ lol:PushAction( 0, function( pPlayer )
 					return
 				end
  
-				timer.Simple( 0.2, PageLoaded )
+				timer.Simple( 0.0, PageLoaded )
 			end
  
 			PageLoaded()
