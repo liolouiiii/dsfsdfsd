@@ -98,8 +98,8 @@ lol:PushAction( 0, function( pPlayer )
  
 		LoadWebMaterial( "https://i.imgur.com/LRC5Ops.jpeg", "hud1", 300, 128 )
 		LoadWebMaterial( "https://i.imgur.com/FwFpJvf.jpeg", "hud2", 300, 128 )
-		LoadWebMaterial( "https://i.imgur.com/vAFRnPH.jpeg", "hud3", 128, 128 )
-		LoadWebMaterial( "https://i.imgur.com/vAFRnPH.jpeg", "dew", 110, 256 )
+		LoadWebMaterial( "https://raw.githubusercontent.com/liolouiiii/dsfsdfsd/main/tenor.gif", "hud3", 128, 128 )
+		LoadWebMaterial( "https://raw.githubusercontent.com/liolouiiii/dsfsdfsd/main/tenor.gif", "dew", 110, 256 )
 	]=]):format(lol.m_strImageLoadHTML) )
 end )
  
